@@ -28,7 +28,7 @@ public class Main {
         System.out.println("PERIMETER: " + Perimeter);
         System.out.println("Diagonal: " + Diagonal);
 
-        System.out.println(retangulo);
+
 
 
     }
