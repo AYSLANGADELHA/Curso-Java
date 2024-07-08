@@ -18,9 +18,9 @@ public class Main {
         char[] gender = new char[n];
 
         for(int i=0; i<n; i++){
-            System.out.printf("Height %dª people: ", n);
+            System.out.printf("Height %dª people: ", i+1);
             height[i] = sc.nextDouble();
-            System.out.printf("Gender %d people: ", n);
+            System.out.printf("Gender %d people: ", i+1);
             gender[i] = sc.next().charAt(0);
         }
 
@@ -61,7 +61,7 @@ public class Main {
         System.out.printf("BIGGER AGE: %.2f \n", bigger);
         System.out.printf("MINOR AGE: %.2f \n", minor);
 
-        System.out.printf("AVERAGE HEIGHT FEMALE: %.2f \n", heightFemaleTotal);
+        System.out.printf("AVERAGE HEIGHT FEMALE: %.2f ",  heightFemaleTotal);
         System.out.printf("NUMBER MAN: %d ", quantMan);
 
 
