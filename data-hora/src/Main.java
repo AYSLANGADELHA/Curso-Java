@@ -43,7 +43,7 @@ public class Main {
         // texto ISO 8601
 
         LocalDate data04 = LocalDate.parse("2022-07-20");
-        System.out.println("data04 = " + data04);
+        System.out.println("data04 = " + data04.format(formato01));
 
 
         LocalDateTime data05 = LocalDateTime.parse("2022-07-20T01:30:36");
